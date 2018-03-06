@@ -1,12 +1,12 @@
 Package.describe({
-  summary: 'Accounts Templates styled for Twitter Bootstrap.',
-  version: '1.14.2',
-  name: 'useraccounts:bootstrap',
+  summary: 'Accounts Templates styled for Twitter Bootstrap 4, forked from meteor-useraccounts:bootstrap 1.14.2',
+  version: '0.1.0',
+  name: 'mattsouth:bootstrap4',
   git: 'https://github.com/meteor-useraccounts/bootstrap.git',
 });
 
 Package.on_use(function(api, where) {
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom('METEOR@1.6');
 
   api.use([
     'templating',
@@ -69,7 +69,7 @@ Package.on_use(function(api, where) {
 
 Package.on_test(function(api) {
   api.use([
-    'useraccounts:bootstrap',
+    'mattsouth:bootstrap4',
     'useraccounts:core@1.14.2',
   ]);
 
