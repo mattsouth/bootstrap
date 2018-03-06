@@ -1,3 +1,10 @@
+.at-title {
+  margin-top: 20px;
+}
+.at-btn {
+  margin-bottom: 16px;  
+}
+/**
 .at-form {
   float: none;
   margin: auto;
@@ -153,3 +160,4 @@ button.at-social-btn#at-github:hover {
   margin-top: 20px;
   font-size: 16px;
 }
+**/
